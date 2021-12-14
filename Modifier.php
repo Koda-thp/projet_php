@@ -26,8 +26,7 @@ $contact = $pdoStat->fetch();
     <h1 style="text-align: center;">
         Modifie saucisse !
     </h1>
-    <form name='inscription' action='modif.php' method="post">
-        <input type="hidden" name="numContact" value="<?= $contact['id'] ?>">
+    <form name='inscription' action='modif.php?numContact=<?= $contact['id_employes'] ?>' method="post">
         <div class="form-group">
         <label for="exampleInputEmail1">Nom</label>
         <input type="text" class="form-control" id="nom" name="nom" aria-describedby="emailHelp" placeholder="Nom" value="<?= $contact['nom'] ?>">
