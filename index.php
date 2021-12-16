@@ -1,5 +1,6 @@
 <?php 
 require 'Pdo.php';
+require 'navbar.php';
 
 
 

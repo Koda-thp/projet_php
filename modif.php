@@ -1,5 +1,7 @@
 <?php
 require 'Pdo.php';
+require 'navbar.php';
+
 
 
 $pdoStat = $conn->prepare('UPDATE employes set nom=:nom, prenom=:prenom, sexe=:sexe, service=:service, date_embauche=:date_embauche, salaire=:salaire, password=:password WHERE id_employes=:num LIMIT 1');

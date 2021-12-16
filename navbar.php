@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="nav.css">
     <title>Navbar</title>
 </head>
 <body>
@@ -17,13 +18,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-            <a class="nav-link" href="#">Index <span class="sr-only"></span></a>
+            <a class="nav-link" href="index.php">Index <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Connection</a>
+            <a class="nav-link" href="login.php">Connection</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Inscription</a>
+            <a class="nav-link" href="form.php">Inscription</a>
             </li>
         </ul>
         </div>

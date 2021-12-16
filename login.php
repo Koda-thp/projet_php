@@ -1,7 +1,5 @@
 <?php 
 require 'Pdo.php';
-require 'navbar.php';
-
 
 
     if (isset ($_POST['valider'])){
@@ -24,13 +22,13 @@ require 'navbar.php';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="form.css">
 
-    <title>Inscription</title>
+    <title>Connection</title>
 </head>
 <body>
     <h1 style="text-align: center;">
-        Inscris toi saucisse !
+        Connecte toi saucisse !
     </h1>
-    <form name='inscription' method="post">
+    <form name='inscription' method="get">
         <div class="form-group">
         <label for="exampleInputEmail1">Nom</label>
         <input type="text" class="form-control" id="nom" name="nom" aria-describedby="emailHelp" placeholder="Nom">
@@ -39,29 +37,12 @@ require 'navbar.php';
             <label for="exampleInputEmail1">Prenom</label>
             <input type="text" class="form-control" id="prenom" name="prenom" aria-describedby="emailHelp" placeholder="Prenom">
             </div>
-            <label for="exampleInputEmail1">Sexe : </label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="sexe" name="sexe" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">M</label>
-                <input class="form-check-input" type="checkbox" id="sexe" name="sexe" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">F</label>
-            </div>
-        <div class="form-group">
-        <label for="exampleInputPassword1">Service</label>
-        <input type="text" class="form-control" id="service" name="service" placeholder="Service">
-        </div>
-        <label for="exampleInputPassword1">Date d'embauche</label>
-        <input type="date" id="date_embauche" name="date_embauche" value="2018-07-22" min="2018-01-01" max="2018-12-31">
-        <div class="form-group">
-            <label for="exampleInputEmail1">Salaire</label>
-            <input type="fname" class="form-control" id="salaire" name="salaire" aria-describedby="emailHelp" placeholder="Salaire">
-            </div>
             <div class="form-group">
             <label for="exampleInputEmail1">Mot de passe</label>
             <input type="password" class="form-control" id="password" name="password" aria-describedby="emailHelp" placeholder="password">
             </div>
         <br>
-        <button type="submit" class="btn btn-primary btn-lg btn-block" name="valider">Envoyer</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" name="valider">Clique si tu l'oses</button>
     </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>

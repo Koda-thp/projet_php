@@ -1,5 +1,6 @@
 <?php
 require 'Pdo.php';
+require 'navbar.php';
 
 $pdoStat = $conn->prepare('SELECT * FROM employes WHERE id_employes=:num');
 
