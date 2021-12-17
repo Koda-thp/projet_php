@@ -39,11 +39,11 @@ require 'navbar.php';
             <label for="exampleInputEmail1">Prenom</label>
             <input type="text" class="form-control" id="prenom" name="prenom" aria-describedby="emailHelp" placeholder="Prenom">
             </div>
-            <label for="exampleInputEmail1">Sexe : </label>
+            <label for="exampleInputEmail1" id="sexe">Sexe : </label>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="sexe" name="sexe" value="option1">
+                <input class="form-check-input" type="checkbox" name="sexe" value="m">
                 <label class="form-check-label" for="inlineCheckbox1">M</label>
-                <input class="form-check-input" type="checkbox" id="sexe" name="sexe" value="option2">
+                <input class="form-check-input" type="checkbox" name="sexe" value="f">
                 <label class="form-check-label" for="inlineCheckbox2">F</label>
             </div>
         <div class="form-group">

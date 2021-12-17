@@ -28,7 +28,7 @@ require 'Pdo.php';
     <h1 style="text-align: center;">
         Connecte toi saucisse !
     </h1>
-    <form name='inscription' method="get">
+    <form action="login.inc.php" name='inscription' method="post">
         <div class="form-group">
         <label for="exampleInputEmail1">Nom</label>
         <input type="text" class="form-control" id="nom" name="nom" aria-describedby="emailHelp" placeholder="Nom">
